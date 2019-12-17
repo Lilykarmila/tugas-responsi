@@ -1,0 +1,217 @@
+*{
+    padding: 0%;
+    margin: 0
+}
+/*navigasi*/
+.menu ul{
+    list-style: none;
+    margin-top: 1px;
+    margin-left: 25%;
+    padding: 0;
+    float: center;
+    position: absolute;
+    text-align: center;
+}
+.menu ul ul{
+    transition: all 1s;
+    opacity: 0;
+    position: absolute;
+    visibility: hidden;
+    left: -25%;
+    top: 100%;
+}
+.menu ul li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+}
+.menu ul li{
+    padding: 5px;
+    margin: 1px;
+    float: left;
+    position: relative;
+    width: 100px;
+    height: 35px;
+    background-color:rgba(128, 128, 128, 0.432);
+    cursor: pointer;
+    border-top: 1px solid rgba(189, 195, 199, 0.397);
+    transition: all;
+    text-align: center;
+}
+.menu > ul > li{
+    border-bottom: 5px solid rgb(235, 177, 69);
+}
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: none ;
+}
+.menu ul li:hover{
+    background-color: turquoise;
+}
+
+
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    background-image: url(bg3.jpg);
+    background-attachment: fixed;
+    padding: 10px;
+    margin: 0%;
+
+}
+h1 {
+    font-size: 15pt;
+    color: #20bcd5;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 4px dashed #20bcd5;
+    padding: 10px;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.img-circle {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.section {
+    padding: 15px;
+    margin-top: 5%;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.281);
+}
+#header {
+    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+    background-size: cover;
+}
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+#header p {
+    font-size: 25pt;
+    color: #3b464c;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.quote {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+}
+.selected {
+    background-color: #f36f48;
+    font-weight: bold;
+    color: white;
+}
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+p{
+    text-align: center;
+}
+progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+} 
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+}
+iframe, audio {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #3fb6b2;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #f36f48;
+}
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.submit {
+    background-color: #3fb6b2;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: #43a09d;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+.face {
+    transform: scale(0.4);
+    margin: 0 auto;
+    display: block;
+    margin-top: -35px;
+    margin-bottom: -25px;
+}
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
+footer{
+    text-align:center;
+    color: #fff;
+}
+footer,div.table{
+    text-align:center;
+    color:#fff;
+}
